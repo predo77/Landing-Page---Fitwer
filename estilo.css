@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+body{
+    background: no-repeat linear-gradient(184deg, rgba(251,251,251,1) 0%, rgba(245,245,220,1) 100%);
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.naveg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+    align-items: center;
+    background-color: #f5f5dc;
+    padding: 9px;
+}
+.img-nav{
+    height: 90px;
+    border-radius: 100px;
+}
+
+.cprincipal{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.princip{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 170px;
+    margin-top: 10px;
+    
+}
+.tit{
+    font-size: 50px;
+    color: burlywood;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.267);
+}
+.conteudo{
+    font-size: 18px;
+    color: burlywood;
+    font-weight: 200;
+}
+.princip2{
+    margin-top: 30px;
+    margin-right: 150px;
+    
+}
+.foto{
+    border-radius: 50px;
+    margin-right: 160px;
+    box-shadow: 3px 3px 2px 0px rgba(0, 0, 0, 0.267);
+}
+a{
+    color: burlywood;
+}
+footer{
+    background-color: rgba(245, 245, 220, 0.767);
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border-top: 1px solid burlywood;
+}
+.foot{
+    font-size: 20px;
+    color: burlywood;
+    font-weight: 600;
+}
